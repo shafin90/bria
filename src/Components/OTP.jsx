@@ -5,41 +5,38 @@ import { baseURL } from '../../baseUrl';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const ForgetPass = () => {
-    const [email, setEmail] = useState('');
+
+const OTP = () => {
+    const [otp, setOTP] = useState('');
+    const [email, setEmail] = useState("");
     const [errors, setErrors] = useState({});
-    const [password, setPassword] = useState("")
     const navigate = useNavigate();
 
-    const validateEmail = (email) => {
-        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return re.test(String(email).toLowerCase());
-    };
+
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(1)
-
         try {
-            const response = await fetch(`${baseURL}/adminLogin/submitForgetPassMail`, {
+            const response = await fetch(`${baseURL}/adminLogin/submitForgetPassOTP`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ forgetPasswordEmail: email }),
+                body: JSON.stringify({ resetOTP: otp }),
             });
             const data = await response.json();
 
             if (data.success) {
                 sessionStorage.setItem('isAuthenticated', 'true');
-                toast("Please check your email address. OTP has been sent to your email")
-                navigate('/otp');
+                toast("OTP matched!");
+                navigate('/reset-pass');
             } else {
-                setErrors({ login: 'Invalid email or password' });
+                setErrors({ login: 'OTP doesnt match' });
             }
         } catch (error) {
             setErrors({ login: 'Failed to login. Please try again later.' });
         }
+
 
     };
 
@@ -70,23 +67,22 @@ const ForgetPass = () => {
     return (
         <div className={styles.adminLoginWrapper}>
             <div style={formStyle}>
-                <h2 style={headingStyle}>Enter Your Email</h2>
+
                 <form onSubmit={handleSubmit}>
                     <div className={styles.inputGroup}>
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="otp">Enter The Given OTP</label>
                         <input
                             type="text"
-                            id="email"
-                            name="email"
-                            placeholder="Enter Email Address"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
+                            id="otp"
+                            name="otp"
+                            placeholder="OTP"
+                            value={otp}
+                            onChange={(e) => setOTP(e.target.value)}
                             required
                         />
-                        {errors.email && <span className={styles.error}>{errors.email}</span>}
+                        
                     </div>
                     <p className={styles.forget_password} onClick={() => navigate("/admin-login")}>Back</p>
-
 
                     {errors.login && <span className={styles.error}>{errors.login}</span>}
                     <button className={styles.adminButton} type="submit">Submit</button>
@@ -97,4 +93,4 @@ const ForgetPass = () => {
     );
 };
 
-export default ForgetPass;
+export default OTP;

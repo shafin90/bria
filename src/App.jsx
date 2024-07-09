@@ -12,6 +12,8 @@ import './App.css';
 import BookedAppointments from './Components/BookedAppointments';
 import ProtectedRoute from './Context/ProtectedRoute';
 import ForgetPass from './Components/ForgetPass';
+import OTP from './Components/OTP';
+import ResetPass from './Components/ResetPass';
 
 
 const ConditionalNavBarAndFooter = ({ children }) => {
@@ -39,7 +41,9 @@ const App = () => {
             <Route path="/services/bookedappointments" element={<BookedAppointments />} />
             <Route path="/admin-login" element={<AdminLogin />} />
             <Route path="/forget-pass" element={<ForgetPass />} />
-            
+            <Route path="/reset-pass" element={<ResetPass />} />
+            <Route path="/otp" element={<OTP />} />
+
             <Route element={<ProtectedRoute />}>
               <Route path="/admin/*" element={<AdminPannel />} />
             </Route>

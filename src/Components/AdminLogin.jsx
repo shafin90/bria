@@ -84,7 +84,7 @@ const AdminLogin = () => {
             />
             {errors.password && <span className={styles.error}>{errors.password}</span>}
           </div>
-          <p className={styles.forget_password}>Forget Password</p>
+          <p className={styles.forget_password} onClick={()=>navigate("/forget-pass")} >Forget Password</p>
           {errors.login && <span className={styles.error}>{errors.login}</span>}
           <button className={styles.adminButton} type="submit">Login</button>
         </form>
