@@ -1,0 +1,38 @@
+.frequentCustomers {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.frequentCustomers h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  color: #91268F;
+}
+
+.table th {
+  color: #262226;
+}

@@ -1,0 +1,95 @@
+/* ServicesSelection.module.css */
+
+.serviceSelectionWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstPart {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 30px 10px 30px;
+  align-items: center;
+}
+
+.firstPart span, .anythingElse span {
+  justify-self: flex-end;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.secondPart {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px 10px 30px;
+  overflow-y: auto;
+}
+
+.servicesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  height: fit-content;
+  background-color: #fff;
+  gap: 2%;
+}
+
+.anythingElse {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.fadeOut {
+  animation: fadeOut 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Media Queries */
+@media only screen and (min-width: 320px) {
+  .servicesContainer {
+    gap: 5%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .servicesContainer {
+    gap: 3.33%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .servicesContainer {
+    gap: 2%;
+  }
+}

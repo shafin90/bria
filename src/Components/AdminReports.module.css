@@ -1,0 +1,14 @@
+.adminReport {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 10px 20px;
+}
+
+.lowerSection {
+  display: flex;
+  gap: 24px;
+}

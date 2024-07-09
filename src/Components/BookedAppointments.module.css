@@ -1,0 +1,378 @@
+/* Styles for 1920px screen size */
+.container {
+  display: flex;
+  height: 100vh;
+  margin: 100px 0 0 0;
+  padding: 0 5%;
+}
+
+.leftPane {
+  width: 45%;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.rightPane {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmationMessage {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #262226;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 120%;
+  gap: 20px;
+}
+
+.checkIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #F8F7F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkIcon img {
+  width: 40px;
+  height: 40px;
+}
+
+.bookingInfo {
+  width: 80%;
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0px 40px 80px -16px rgba(57, 15, 56, 0.16), 0px 2px 4px 0px rgba(57, 15, 56, 0.06);
+}
+
+.header {
+  color: #4B434B;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.salonName {
+  color: #C634C4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+.appointmentInfo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.serviceImage {
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.servicesInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.servicesInfo h1 {
+  color: #262226;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.serviceName {
+  color: #4B434B;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.serviceTime, .serviceDate {
+  color: #938693;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.confirmationCode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.confirmationCode h1 {
+  color: #262226;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.code {
+  padding: 6px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8F7F8;
+  border-radius: 8px;
+  color: #262226;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.addToCalander {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.addToCalander h1 {
+  color: #262226;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.calendarIcon {
+  width: 80px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #6F636F;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.calendarIcon img {
+  width: 15px;
+  height: 15px;
+}
+
+.calendarIcon h2 {
+  color: #262226;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.625rem;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.salonImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Styles for screens 1024px and below */
+@media only screen and (max-width: 1023px) {
+  .container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .leftPane {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .rightPane {
+    display: none;
+  }
+
+  .bookingInfo {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .serviceImage {
+    width: 100px;
+    height: 80px;
+  }
+
+  .servicesInfo h1,
+  .confirmationCode h1,
+  .addToCalander h1 {
+    font-size: 1rem;
+  }
+
+  .serviceName,
+  .code {
+    font-size: 0.75rem;
+  }
+
+  .serviceTime, .serviceDate {
+    font-size: 0.625rem;
+  }
+
+  .calendarIcon {
+    width: 70px;
+    height: 25px;
+  }
+
+  .calendarIcon img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .calendarIcon h2 {
+    font-size: 0.5rem;
+  }
+}
+
+/* Styles for screens 768px and below */
+@media only screen and (max-width: 768px) {
+  .confirmationMessage {
+    font-size: 1.25rem;
+  }
+
+  .checkIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .checkIcon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .servicesInfo h1 {
+    font-size: 1rem;
+  }
+
+  .serviceName {
+    font-size: 0.75rem;
+  }
+
+  .confirmationCode h1 {
+    font-size: 0.875rem;
+  }
+
+  .code {
+    font-size: 0.75rem;
+  }
+
+  .addToCalander h1 {
+    font-size: 0.875rem;
+  }
+
+  .calendarIcon {
+    width: 60px;
+    height: 25px;
+  }
+
+  .calendarIcon h2 {
+    font-size: 0.5rem;
+  }
+}
+
+/* Styles for screens 480px and below */
+@media only screen and (max-width: 480px) {
+  .confirmationMessage {
+    font-size: 1rem;
+  }
+
+  .checkIcon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .checkIcon img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .servicesInfo h1 {
+    font-size: 0.875rem;
+  }
+
+  .serviceName {
+    font-size: 0.625rem;
+  }
+
+  .confirmationCode h1 {
+    font-size: 0.75rem;
+  }
+
+  .code {
+    font-size: 0.625rem;
+  }
+
+  .addToCalander h1 {
+    font-size: 0.75rem;
+  }
+
+  .calendarIcon {
+    width: 50px;
+    height: 20px;
+  }
+
+  .calendarIcon h2 {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .leftPane {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bookingInfo {
+    width: 85%;
+    padding: 30px;
+  }
+}
+
+/* Styles for screens 640px and below */
+@media only screen and (min-width: 640px) {
+  .bookingInfo {
+    width: 60%  ;
+    padding: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .leftPane {
+    width: 50%;
+  }
+  .rightPane {
+    width: 50%;
+  }
+  .bookingInfo {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .bookingInfo {
+    width: 70%;
+  }
+}

@@ -1,0 +1,33 @@
+.progressSteps {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  padding: 15px 0 0 30px;
+}
+
+.progressSteps span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  color: #938693;
+}
+
+.progressSteps img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.progressSteps .active {
+  font-weight: bold;
+  color: #591758;
+  font-size: 1.2rem;
+  transform: scale(1.1);
+}
+
+.progressSteps .arrow {
+  margin: 0 5px;
+}

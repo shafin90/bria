@@ -1,0 +1,6 @@
+.NavBarWrapper {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}

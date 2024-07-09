@@ -1,0 +1,236 @@
+.adminOffersWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 10px 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  color: #131523;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.noOffersWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  height: 70vh;
+  border-radius: 16px;
+  border: 1px solid #E2DFE2;
+  box-shadow: 0px 16px 32px 0px rgba(57, 15, 56, 0.04), 0px 2px 4px 0px rgba(57, 15, 56, 0.06);
+}
+
+.noOffersImage {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.noOrdersWrapper h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #91268F;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.noOrdersWrapper p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #938693;
+}
+
+.addButton {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #91268F;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  filter: brightness(1.4);
+}
+
+.addButton img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.navBar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.navBar .firstPart {
+  display: flex;
+  gap: 20px;
+}
+
+.tab {
+  cursor: pointer;
+  text-decoration: none;
+  color: #91268F;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 120%;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.tab:hover {
+  border-bottom: 2px solid #91268F;
+}
+
+.activeTab {
+  border-bottom: 2px solid #91268F;
+}
+
+.searchBar {
+  width: fit-content;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.searchBar input {
+  padding: 10px 40px 10px 50px;
+  border: 1px solid #E6E9F4;
+  border-radius: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #591758;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.searchBar::placeholder {
+  color: #591758;
+}
+
+.searchBar input:focus {
+  outline: none;
+  border: 1px solid #591758;
+}
+
+.searchBar img {
+  position: absolute;
+  left: 15px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #E6E9F4;
+}
+
+th {
+  background-color: #fff;
+  color: #262226;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.name {
+  color: #591758;
+}
+
+.editIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.activeStatus {
+  color: #008000;
+  font-weight: bold;
+}
+
+.inactiveStatus {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+td {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 120%;
+  font-style: normal;
+}
+
+.editButton {
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 15px;
+  width: fit-content;
+  border: 1px solid #938693;
+  color: #938693;
+  padding: 5px 10px;
+  border-radius: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.editButton:hover {
+  filter: brightness(1.2);
+}
+
+.editIcon {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #91268F;
+}
+
+.editIcon img {
+  width: 30px;
+  height: 30px;
+}

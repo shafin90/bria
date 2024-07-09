@@ -1,0 +1,84 @@
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupContent {
+  padding: 20px;
+  width: 500px;
+  position: relative;
+  border-radius: 24px;
+  background: #FFF;
+  box-shadow: 0px 2px 10px 0px rgba(38, 44, 71, 0.16);
+}
+
+.closeIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.popupContent h2 {
+  color: #262226;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  margin-bottom: 20px;
+}
+
+.popupContent p {
+  color: #4B434B;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.cancelButton {
+  background: transparent;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #F00;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.deleteButton {
+  background-color: red;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 24px;
+  color: #FFE5E5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}

@@ -1,0 +1,249 @@
+.aboutUsHomeWrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
+  padding: 7% 5%;
+}
+
+.aboutImages {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.aboutImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.topImage {
+  width: 48%;
+  height: 85%;
+}
+
+.bottomImage {
+  width: 48%;
+  height: 85%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media only screen and (min-width: 320px) {
+  .aboutUsHomeWrapper {
+    flex-direction: column;
+  }
+  .aboutImages {
+    margin-top: 10%;
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+  }
+  .aboutImage {
+    width: 100px;
+    height: 100px;
+  }
+  .topImage {
+    width: 48%;
+    height: 65%;
+  }
+  .bottomImage {
+    width: 48%;
+    height: 65%;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .aboutImages {
+    height: 400px;
+  }
+  .aboutImage {
+    width: 150px;
+    height: 150px;
+  }
+  .topImage {
+    width: 48%;
+    height: 65%;
+  }
+  .bottomImage {
+    width: 48%;
+    height: 65%;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .aboutUsHomeWrapper {
+    padding: 5%;
+  }
+  .aboutImages {
+    height: 500px;
+  }
+  .aboutImage {
+    width: 200px;
+    height: 200px;
+  }
+  .topImage {
+    width: 48%;
+    height: 65%;
+  }
+  .bottomImage {
+    width: 48%;
+    height: 65%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutUsHomeWrapper {
+    padding: 5%;
+  }
+  .aboutImages {
+    height: 600px;
+  }
+  .aboutImage {
+    width: 250px;
+    height: 250px;
+  }
+  .topImage {
+    width: 45%;
+    height: 65%;
+  }
+  .bottomImage {
+    width: 45%;
+    height: 65%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .aboutUsHomeWrapper {
+    padding: 5%;
+  }
+  .aboutImages {
+    height: 700px;
+  }
+  .aboutImage {
+    width: 300px;
+    height: 300px;
+  }
+  .topImage {
+    width: 45%;
+    height: 65%;
+  }
+  .bottomImage {
+    width: 45%;
+    height: 65%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .aboutUsHomeWrapper {
+    flex-direction: row;
+  }
+  .aboutImages {
+    margin-top: 2%;
+    height: 500px;
+    width: 100%;
+  }
+  .aboutImage {
+    width: 200px;
+    height: 200px;
+  }
+  .topImage {
+    width: 48%;
+    height: 65%;
+  }
+  .bottomImage {
+    width: 48%;
+    height: 65%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .aboutUsHomeWrapper {
+    padding: 5%;
+  }
+  .aboutImages {
+    height: 600px;
+  }
+  .aboutImage {
+    width: 250px;
+    height: 250px;
+  }
+  .topImage {
+    width: 45%;
+    height: 65%;
+  }
+  .bottomImage {
+    width: 45%;
+    height: 65%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .aboutUsHomeWrapper {
+    padding: 5%;
+  }
+  .aboutImages {
+    width: 60%;
+    height: 700px;
+  }
+  .aboutImage {
+    width: 300px;
+    height: 300px;
+  }
+  .topImage {
+    width: 45%;
+    height: 65%;
+  }
+  .bottomImage {
+    width: 45%;
+    height: 65%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .aboutUsHomeWrapper {
+    padding: 5%;
+  }
+  .aboutImages {
+    width: 45%;
+    height: 700px;
+  }
+  .aboutImage {
+    width: 300px;
+    height: 300px;
+  }
+  .topImage {
+    width: 45%;
+    height: 65%;
+  }
+  .bottomImage {
+    width: 45%;
+    height: 65%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .aboutUsHomeWrapper {
+    padding: 5%;
+  }
+  .aboutImages {
+    width: 45%;
+    height: 800px;
+  }
+  .aboutImage {
+    width: 300px;
+    height: 300px;
+  }
+  .topImage {
+    width: 48%;
+    height: 75%;
+  }
+  .bottomImage {
+    width: 48%;
+    height: 75%;
+  }
+}

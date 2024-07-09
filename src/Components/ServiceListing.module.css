@@ -1,0 +1,80 @@
+.ourServicesWrapperExtended {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: fit-content;
+  padding: 2% 5%;
+  background-color: #fff;
+  gap: 2%;
+}
+
+.title {
+  margin: 140px 0 0 100px;
+  border: 1px solid #91268F;
+  padding: 15px 30px;
+  border-radius: 24px;
+  width: fit-content;
+  border-radius: 50px;
+}
+
+.title h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #91268F;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+
+@media only screen and (min-width: 320px) {
+  .ourServicesWrapperExtended {
+    gap: 5%;
+  }
+  .title {
+    margin: 90px 0 0 5%;
+    padding: 5px 10px;
+  }
+  .title h1 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .title {
+    margin: 100px 0 0 4.5%;
+    padding: 10px 20px;
+  }
+  .title h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .ourServicesWrapperExtended {
+    gap: 3.33%;
+  }
+  .title {
+    margin: 100px 0 0 5.5%;
+    padding: 10px 20px;
+  }
+  .title h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .ourServicesWrapperExtended {
+    gap: 2%;
+  }
+  .title {
+    margin: 7% 0 0 6%;
+    padding: 15px 3 0px;
+  }
+  .title h1 {
+    font-size: 1.5rem;
+  }
+}

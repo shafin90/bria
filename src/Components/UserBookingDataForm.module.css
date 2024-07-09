@@ -1,0 +1,168 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background: white;
+  position: relative;
+  padding: 20px;
+  border-radius: 16px;
+  width: 450px;
+  height: 650px;
+  box-shadow: 0px 16px 32px 0px rgba(57, 15, 56, 0.04), 0px 2px 4px 0px rgba(57, 15, 56, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.closeButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.closeButton img {
+  width: 30px;
+  height: 30px;
+}
+
+.header {
+  margin-bottom: 10px;
+  color: #262226;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.salonName {
+  color: #C634C4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+.personalInfo {
+  color: #4B434B;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  margin-bottom: 20px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  color: #4B434B;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.formGroup .nameInput {
+  width: 100%;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #D1CCD1;
+  background-color: #F8F7F8;
+  height: 50px;
+  color: #4B434B;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.formGroup input:focus {
+  outline: none;
+  border: 1px solid #91268F;
+}
+
+.formGroup .nameInput.invalidInput {
+  border: 2px solid red;
+}
+
+.formGroup .mobileNo {
+  width: 100%;
+  padding: 8px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #D1CCD1;
+  background-color: #F8F7F8;
+  height: 50px;
+  color: #4B434B;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.formGroup .mobileNo.invalidInput {
+  border: 2px solid red;
+}
+
+.inputContainer {
+  width: 100%;
+  position: relative;
+  display: inline-flex;
+}
+
+.inputContainer .countryCode {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  color: #4B434B;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.bookButton {
+  width: 100%;
+  height: 50px;
+  padding: 8px 0;
+  background-color: #d0d0d0;
+  border: none;
+  border-radius: 24px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: not-allowed;
+  flex-shrink: 0;
+}
+
+.bookButton.active {
+  background-color: #91268F;
+  cursor: pointer;
+}
+
+.bookButton.active:hover {
+  filter: brightness(1.4);
+}

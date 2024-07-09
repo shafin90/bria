@@ -1,0 +1,22 @@
+.adminPannelWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 10px 20px;
+}
+
+.BelowPart {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 100px;
+}
+
+.mainContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

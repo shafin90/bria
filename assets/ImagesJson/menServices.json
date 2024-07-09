@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Beard Shape up",
+        "image": "../assets/Images/men/Beard Shape up.png"
+    },
+    {
+        "name": "Blow Dry",
+        "image": "../assets/Images/men/Blow Dry.png"
+    },
+    {
+        "name": "Cap Highlights",
+        "image": "../assets/Images/men/Cap Highlights.png"
+    },
+    {
+        "name": "French beard shave",
+        "image": "../assets/Images/men/French beard shave.png"
+    },
+    {
+        "name": "Hair colour'",
+        "image": "../assets/Images/men/Hair colour'.png"
+    },
+    {
+        "name": "Head shave",
+        "image": "../assets/Images/men/Head shave.png"
+    },
+    {
+        "name": "Highligts half head",
+        "image": "../assets/Images/men/Highligts half head.png"
+    },
+    {
+        "name": "Keratine treatment",
+        "image": "../assets/Images/men/Keratine treatment.png"
+    },
+    {
+        "name": "Kids hair cut men",
+        "image": "../assets/Images/men/Kids hair cut men.png"
+    },
+    {
+        "name": "Massage",
+        "image": "../assets/Images/men/Massage.png"
+    },
+    {
+        "name": "Men wash & blast dry",
+        "image": "../assets/Images/men/Men wash & blast dry.png"
+    },
+    {
+        "name": "Regular haircut & Advanced haircut",
+        "image": "../assets/Images/men/Regular haircut & Advanced haircut.png"
+    },
+    {
+        "name": "Regular shave",
+        "image": "../assets/Images/men/Regular shave.png"
+    },
+    {
+        "name": "Root Touch up",
+        "image": "../assets/Images/men/Root Touch up.png"
+    },
+    {
+        "name": "Straightening & Smoothing",
+        "image": "../assets/Images/men/Straightening & Smoothing.png"
+    },
+    {
+        "name": "Zero Trim",
+        "image": "../assets/Images/men/Zero Trim.png"
+    }
+]

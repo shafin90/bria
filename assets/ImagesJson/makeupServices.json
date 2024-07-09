@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Air Brush",
+        "image": "../assets/Images/makeup/Air Brush.png"
+    },
+    {
+        "name": "Braid maid",
+        "image": "../assets/Images/makeup/Braid maid.png"
+    },
+    {
+        "name": "Bride Groom makeuo",
+        "image": "../assets/Images/makeup/Bride Groom makeuo.png"
+    },
+    {
+        "name": "Elegnt makeup",
+        "image": "../assets/Images/makeup/Elegnt makeup.png"
+    },
+    {
+        "name": "Eye makeup",
+        "image": "../assets/Images/makeup/Eye makeup.png"
+    },
+    {
+        "name": "hair Dew",
+        "image": "../assets/Images/makeup/hair Dew.png"
+    },
+    {
+        "name": "High defination makeup",
+        "image": "../assets/Images/makeup/High defination makeup.png"
+    },
+    {
+        "name": "Mini makeup]",
+        "image": "../assets/Images/makeup/Mini makeup].png"
+    },
+    {
+        "name": "Norml makeup",
+        "image": "../assets/Images/makeup/Norml makeup.png"
+    },
+    {
+        "name": "Saree drape",
+        "image": "../assets/Images/makeup/Saree drape.png"
+    }
+]

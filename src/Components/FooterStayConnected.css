@@ -1,0 +1,76 @@
+.footerStayConnectedWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: 50%;
+  padding: 0 2%;
+}
+
+.footerStayConnectedWrapper h2 {
+  font-size: 1.5rem;
+  line-height: 120%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #91268F;
+}
+
+.footerStayConnectedWrapper p {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #591758;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.footerStayConnectedWrapper .icon {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.footerStayConnectedWrapper .icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.footerStayConnectedWrapper .text {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 320px) {
+  .footerStayConnectedWrapper {
+    height: fit-content;
+  }
+
+  .footerStayConnectedWrapper h2 {
+    font-size: 1.3rem;
+  }
+
+  .footerStayConnectedWrapper p {
+    font-size: 1rem;
+  }
+
+  .footerStayConnectedWrapper .icon img {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .footerStayConnectedWrapper h2 {
+    font-size: 1.4rem;
+  }
+
+  .footerStayConnectedWrapper p {
+    font-size: 1rem;
+  }
+
+  .footerStayConnectedWrapper .icon img {
+    width: 20px;
+    height: 20px;
+  }
+}

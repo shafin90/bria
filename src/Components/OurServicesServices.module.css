@@ -1,0 +1,29 @@
+.ourServicesWrapperExtended {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: fit-content;
+  padding: 2% 5%;
+  background-color: #fff;
+  gap: 2%;
+}
+
+@media only screen and (min-width: 320px) {
+  .ourServicesWrapperExtended {
+    gap: 5%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .ourServicesWrapperExtended {
+    gap: 3.33%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .ourServicesWrapperExtended {
+    gap: 2%;
+  }
+}

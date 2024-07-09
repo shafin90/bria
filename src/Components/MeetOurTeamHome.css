@@ -1,0 +1,172 @@
+/* MeetOurTeamHome.css */
+.meetOurTeamHome {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80vh;
+  background-color: #fff;
+  padding: 5% 5%;
+}
+
+.meetOurTeamHeader {
+  width: 25%;
+  height: fit-content;
+  padding: 2% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.meetOurTeamHeader h1 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 130%;
+  color: #262226;
+}
+
+.meetOurTeamHeader p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  color: #4B434B;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 5%;
+}
+
+.teamMembers {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 65%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 320px) {
+  .meetOurTeamHome {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .meetOurTeamHeader {
+    width: 100%;  
+    gap: 20px;
+  }
+
+  .meetOurTeamHeader h1 {
+    font-size: 1.4rem;
+  }
+
+  .meetOurTeamHeader p {
+    font-size: 0.9rem;
+  }
+
+  .teamMembers {
+    width: 100%;
+    gap: 25px;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .meetOurTeamHeader {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .meetOurTeamHeader h1 {
+    font-size: 1.6rem;
+  }
+
+  .meetOurTeamHeader p {
+    font-size: 1rem;
+  }
+
+  .teamMembers {
+    width: 100%;
+    gap: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .meetOurTeamHome {
+    flex-direction: row;
+    height: 60vh;
+  }
+
+  .meetOurTeamHeader {
+    width: 25%;
+    gap: 30px;
+  }
+
+  .meetOurTeamHeader h1 {
+    font-size: 1.8rem;
+  }
+
+  .meetOurTeamHeader p {
+    font-size: 1rem;
+  }
+
+  .teamMembers {
+    width: 65%;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .meetOurTeamHome {
+    height: 80vh;
+  }
+
+  .meetOurTeamHeader {
+    width: 25%;
+    gap: 30px;
+  }
+
+  .meetOurTeamHeader h1 {
+    font-size: 2rem;
+  }
+
+  .meetOurTeamHeader p {
+    font-size: 1.1rem;
+  }
+
+  .teamMembers {
+    width: 60%;
+    gap: 30px;
+  }
+}
+
+@media only screen and (min-width: 1560px) {
+  .meetOurTeamHome {
+    height: 80vh;
+  }
+  .teamMembers {
+    width: 55%;
+    gap: 30px;
+  }
+  .meetOurTeamHeader h1 {
+    font-size: 2.5rem;
+  }
+
+  .meetOurTeamHeader p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .meetOurTeamHome {
+    height: 85vh;
+  }
+  .meetOurTeamHeader h1 {
+    font-size: 3rem;
+  }
+  .meetOurTeamHeader p {
+    font-size: 1.2rem;
+  }
+  .teamMembers {
+    width: 50%;
+    gap: 30px;
+    height: 90%;
+  }
+}

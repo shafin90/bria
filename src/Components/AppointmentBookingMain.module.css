@@ -1,0 +1,72 @@
+.appointmentBookingWrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 5% 0 5%;
+  background-color: #FFFFFF;
+}
+
+.SecondPart {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  padding: 20px 0; /* Added padding for better spacing */
+}
+
+.SecondFirstPart {
+  width: 75%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 0 0; /* Added padding to the right for better spacing */
+}
+
+.SecondSecondPart {
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 20px; /* Added padding to the left for better spacing */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  .SecondFirstPart {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .SecondSecondPart {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .SecondFirstPart {
+    width: 60%;
+    padding: 0 20px 0 0;
+  }
+  .SecondSecondPart {
+    width: 40%;
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .SecondFirstPart {
+    width: 65%;
+  }
+  .SecondSecondPart {
+    width: 35%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .SecondFirstPart {
+    width: 75%;
+  }
+  .SecondSecondPart {
+    width: 25%;
+  }
+}

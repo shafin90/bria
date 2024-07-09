@@ -1,0 +1,84 @@
+.popupWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.popup {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 450px;
+  height: auto;
+  box-shadow: 0px 2px 10px 0px rgba(38, 44, 71, 0.16);
+}
+
+.onePart {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.onePart h2 {
+  color: #131523;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.onePart p {
+  color: #131523;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.checkmark {
+  margin-bottom: 20px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9E7F8;
+}
+
+.checkmark img {
+  width: 40px;
+  height: 40px;
+}
+
+.continueButton {
+  background: #91268F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 24px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-size: 1rem;
+  color: #F9E7F8;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}

@@ -1,0 +1,64 @@
+.summaryCard {
+  width: 33.33%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  position: relative;
+}
+
+.summaryCard h3 {
+  margin: 0;
+  color: #262226;
+  font-family: Montserrat;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.summaryCard p {
+  margin: 10px 0;
+  color: #938693;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.percentage {
+  display: flex;
+  align-items: center;
+  color: #008000;
+}
+
+.percentage img {
+  margin-left: 5px;
+  width: 16px;
+  height: 16px;
+}
+
+.percentage img[alt="down icon"] {
+  color: red;
+}
+
+.Icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DBFFDB;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+
+.Icon img {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+}

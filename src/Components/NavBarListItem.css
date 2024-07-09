@@ -1,0 +1,44 @@
+.listItemLink {
+  text-decoration: none;
+}
+
+.listItemName {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #262226;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.listItemName:hover {
+  color: #7b378d;
+}
+
+@media screen and (max-width: 640x) {
+  .listItemName {
+    color: #591758;
+  }
+  .listItemName:hover {
+    color: #7b378d;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .listItemName {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .listItemName {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .listItemName {
+    font-size: 1.2rem;
+  }
+}

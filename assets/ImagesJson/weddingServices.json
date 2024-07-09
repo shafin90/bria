@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Advance haircut",
+        "image": "../assets/Images/weedings/Advance haircut.png"
+    },
+    {
+        "name": "beard Trim",
+        "image": "../assets/Images/weedings/beard Trim.png"
+    },
+    {
+        "name": "Deluxe hair Colour",
+        "image": "../assets/Images/weedings/Deluxe hair Colour.png"
+    },
+    {
+        "name": "Deluxe Hair cut",
+        "image": "../assets/Images/weedings/Deluxe Hair cut.png"
+    },
+    {
+        "name": "Deluxe hair spa",
+        "image": "../assets/Images/weedings/Deluxe hair spa.png"
+    },
+    {
+        "name": "Deluxe Manicure",
+        "image": "../assets/Images/weedings/Deluxe Manicure.png"
+    },
+    {
+        "name": "Deluxe Pedicure",
+        "image": "../assets/Images/weedings/Deluxe Pedicure.png"
+    },
+    {
+        "name": "Dermalogica Facial",
+        "image": "../assets/Images/weedings/Dermalogica Facial.png"
+    },
+    {
+        "name": "Groom For Premium",
+        "image": "../assets/Images/weedings/Groom For Premium.png"
+    },
+    {
+        "name": "head massage",
+        "image": "../assets/Images/weedings/head massage.png"
+    },
+    {
+        "name": "Luxury hair colour",
+        "image": "../assets/Images/weedings/Luxury hair colour.png"
+    },
+    {
+        "name": "Luxury Hair spa",
+        "image": "../assets/Images/weedings/Luxury Hair spa.png"
+    },
+    {
+        "name": "Luxury manicure",
+        "image": "../assets/Images/weedings/Luxury manicure.png"
+    },
+    {
+        "name": "Luxury pedicure",
+        "image": "../assets/Images/weedings/Luxury pedicure.png"
+    },
+    {
+        "name": "Seasoul Facial",
+        "image": "../assets/Images/weedings/Seasoul Facial.png"
+    }
+]

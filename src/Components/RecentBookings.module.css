@@ -1,0 +1,357 @@
+/* styles.css */
+
+/* .p-6 */
+.recentBookings {
+  padding: 24px 40px;
+}
+
+/* .text-2xl */
+.recentBookings h1 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 130%;
+  margin-bottom: 24px;
+}
+
+/* .mb-4 */
+.recentBookings h1 {
+  margin-bottom: 16px;
+}
+
+/* .text-center */
+.recentBookings .text-center {
+  text-align: center;
+}
+
+/* .mx-auto */
+.recentBookings .mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .mb-4 */
+.recentBookings .mb-4 {
+  margin-bottom: 16px;
+}
+
+/* .text-xl */
+.recentBookings .text-xl {
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+
+/* .table-auto */
+.recentBookings table {
+  width: 100%;
+}
+
+/* .w-full */
+.recentBookings .w-full {
+  width: 100%;
+}
+
+/* .text-left */
+.recentBookings .text-left {
+  text-align: left;
+}
+
+/* .border-collapse */
+.recentBookings .border-collapse {
+  border-collapse: collapse;
+}
+
+/* .px-4 */
+.recentBookings th,
+.recentBookings td {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* .py-2 */
+.recentBookings th,
+.recentBookings td {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* .border */
+.recentBookings th,
+.recentBookings td {
+  border: 1px solid #E6E9F4;
+}
+
+/* .bg-purple-700 */
+.recentBookings .bg-purple-700 {
+  background-color: #6B46C1;
+}
+
+/* .text-white */
+.recentBookings .text-white {
+  color: #ffffff;
+}
+
+/* .hover:bg-purple-900 */
+.recentBookings .hover\:bg-purple-900:hover {
+  background-color: #4C1D95;
+}
+
+/* .btn */
+.recentBookings .btn {
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  cursor: pointer;
+  background-color: #6B46C1;
+  color: #ffffff;
+}
+
+/* .text-2xl */
+.recentBookings .text-2xl {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 130%;
+  margin-bottom: 24px;
+}
+
+/* .px-4 */
+.recentBookings .px-4 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* .py-2 */
+.recentBookings .py-2 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* .border */
+.recentBookings .border {
+  border: 1px solid #E6E9F4;
+}
+
+/* .text-xl */
+.recentBookings .text-xl {
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+
+/* .mx-auto */
+.recentBookings .mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .mb-4 */
+.recentBookings .mb-4 {
+  margin-bottom: 16px;
+}
+
+/* .text-xl */
+.recentBookings .text-xl {
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+
+/* .table-auto */
+.recentBookings .table-auto {
+  width: 100%;
+}
+
+.recentBookings {
+  width: 100%;
+  background-color: #fff;
+  padding: 24px 40px;
+  border: 1px solid #E6E9F4;
+  border-radius: 16px;
+  box-shadow: 0px 16px 32px 0px rgba(57, 15, 56, 0.04), 0px 2px 4px 0px rgba(57, 15, 56, 0.06);
+  margin: 0 auto;
+}
+
+.noBooking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* .recentBookings h1 */
+.recentBookings h1 {
+  color: #131523;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 130%;
+  margin-bottom: 24px;
+}
+
+/* .text-center */
+.recentBookings .text-center {
+  text-align: center;
+}
+
+/* .mx-auto */
+.recentBookings .mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .mb-4 */
+.recentBookings .mb-4 {
+  margin-bottom: 16px;
+}
+
+/* .text-xl */
+.recentBookings .text-xl {
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+
+/* table */
+.recentBookings table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* th, td */
+.recentBookings th,
+.recentBookings td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #E6E9F4;
+}
+
+/* th */
+.recentBookings th {
+  background-color: #fff;
+  color: #262226;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+/* .name */
+.recentBookings .name {
+  color: #591758;
+}
+
+/* .date */
+.recentBookings .date {
+  color: #91268F;
+}
+
+/* .amount */
+.recentBookings .amount {
+  color: #008000;
+}
+
+/* td */
+.recentBookings td {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 120%;
+  font-style: normal;
+}
+
+/* .serviceType p */
+.recentBookings .serviceType p {
+  width: fit-content;
+  border: 1px solid #938693;
+  color: #938693;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+/* .bg-purple-700 */
+.recentBookings .bg-purple-700 {
+  background-color: #6B46C1;
+}
+
+/* .text-white */
+.recentBookings .text-white {
+  color: #ffffff;
+}
+
+/* .hover\:bg-purple-900:hover */
+.recentBookings .hover-bg-purple-900:hover {
+  background-color: #4C1D95;
+}
+
+/* .btn */
+.recentBookings .btn {
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  cursor: pointer;
+  background-color: #6B46C1;
+  color: #ffffff;
+}
+
+/* .modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .modal-content */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 80%; /* Adjust as per your design */
+}
+
+/* .modal-header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd; /* Example border */
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+/* .modal-body */
+.modal-body {
+  padding: 10px 0;
+}
+
+/* .modal-close */
+.modal-close {
+  cursor: pointer;
+  font-size: 20px;
+  color: #aaa;
+}
+
+/* .modal-close:hover */
+.modal-close:hover {
+  color: #000;
+}

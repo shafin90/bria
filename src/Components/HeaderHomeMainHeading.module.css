@@ -1,0 +1,49 @@
+.mainHeading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #91268F;
+  line-height: 120%;
+  width: 70%;
+}
+
+@media only screen and (min-width: 320px) {
+  .mainHeading {
+    font-size: 1.75rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .mainHeading {
+    font-size: 3rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mainHeading {
+    font-size: 3rem;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mainHeading {
+    font-size: 3.2rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .mainHeading {
+    font-size: 3.5rem;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1560px) {
+  .mainHeading {
+    width: 70%;
+  }
+}

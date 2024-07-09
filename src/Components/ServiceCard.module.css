@@ -1,0 +1,157 @@
+.serviceCard {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 23%;
+  margin-bottom: 2%;
+}
+
+.serviceCard img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.button {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  background-color: #fff; /* Purple */
+  color: #591758;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button img {
+  width: 30px;
+  height: 30px;
+}
+
+.serviceInfo {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  background-color: #F8F7F8;
+  color: #591758;
+  padding: 10px 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.serviceInfo p {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  font-size: 1.3rem;
+  white-space: nowrap;
+}
+
+@media only screen and (min-width: 320px) {
+  .serviceCard {
+    width: 45%;
+    margin-bottom: 5%;
+  }
+
+  .serviceInfo {
+    padding: 5px 10px;
+  }
+
+  .serviceInfo p {
+    font-size: 0.625rem;
+  }
+
+  .button {
+    top: 2%;
+    right: 2%;
+    width: 30px;
+    height: 30px;
+  }
+
+  .button img {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .serviceInfo {
+    padding: 10px 20px;
+  }
+
+  .serviceInfo p {
+    font-size: 0.9rem;
+  }
+
+  .button {
+    top: 5%;
+    right: 5%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .button img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .serviceCard {
+    width: 30%;
+    margin-bottom: 3.33%;
+  }
+
+  .serviceInfo {
+    padding: 10px 20px;
+  }
+
+  .serviceInfo p {
+    font-size: 1rem;
+  }
+
+  .button {
+    top: 5%;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .button img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .serviceCard {
+    width: 23%;
+    margin-bottom: 2%;
+  }
+
+  .serviceInfo {
+    padding: 10px 20px;
+  }
+
+  .serviceInfo p {
+    font-size: 1.3rem;
+  }
+
+  .button {
+    top: 5%;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .button img {
+    width: 30px;
+    height: 30px;
+  }
+}

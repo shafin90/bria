@@ -1,0 +1,83 @@
+.appointmentInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.serviceImage {
+  width: 65px;
+  height: 60px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+.serviceDetails {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.appointmentTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  color: #262226;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.serviceName {
+  font-family: "Montserrat", sans-serif;
+  color: #4B434B;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.deleteIcon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+@media (min-width: 1024px) {
+  .appointmentTitle {
+    font-size: 1rem;
+  }
+
+  .serviceName {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .appointmentTitle {
+    font-size: 1.125rem;
+  }
+
+  .serviceName {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .appointmentTitle {
+    font-size: 1.2rem;
+  }
+
+  .serviceName {
+    font-size: 1.rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .appointmentTitle {
+    font-size: 1.5rem;
+  }
+
+  .serviceName {
+    font-size: 1.25rem;
+  }
+}

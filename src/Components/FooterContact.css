@@ -1,0 +1,49 @@
+.footerContactWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: fit-content;
+  margin-top: auto;
+  padding: 0 2%;
+}
+
+.footerContactWrapper h2 {
+  font-size: 1.5rem;
+  line-height: 120%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #91268F;
+}
+
+.footerContactWrapper p {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #591758;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+@media only screen and (min-width: 320px) {
+  .footerContactWrapper {
+    height: fit-content;
+  }
+
+  .footerContactWrapper h2 {
+    font-size: 1.3rem;
+  }
+
+  .footerContactWrapper p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .footerContactWrapper h2 {
+    font-size: 1.5rem;
+  }
+  .footerContactWrapper p {
+    font-size: 1.1rem;
+  }
+}

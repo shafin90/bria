@@ -1,0 +1,46 @@
+{
+  "men": [
+    {
+      "service": "Regular Hair Cut",
+      "image": "https://i.pinimg.com/236x/84/91/9e/84919ec8651f0d2af319d9caaac16699.jpg"
+    },
+    {
+      "service": "Beard Cut",
+      "image": "https://i.pinimg.com/236x/84/91/9e/84919ec8651f0d2af319d9caaac16699.jpg"
+    },
+    {
+      "service": "Moustache / Sidelocks",
+      "image": "https://i.pinimg.com/236x/84/91/9e/84919ec8651f0d2af319d9caaac16699.jpg"
+    },
+    {
+      "service": "Shampoo & Styling",
+      "image": "https://i.pinimg.com/236x/84/91/9e/84919ec8651f0d2af319d9caaac16699.jpg"
+    },
+    {
+      "service": "Hair Coloring",
+      "image": "https://i.pinimg.com/236x/84/91/9e/84919ec8651f0d2af319d9caaac16699.jpg"
+    }
+  ],
+  "women": [
+    {
+      "service": "Haircut & Styling",
+      "image": "https://i.pinimg.com/236x/d6/da/ad/d6daada0b072020c5a602fcc4cffe9ce.jpg"
+    },
+    {
+      "service": "Manicure & Pedicure",
+      "image": "https://i.pinimg.com/236x/d6/da/ad/d6daada0b072020c5a602fcc4cffe9ce.jpg"
+    },
+    {
+      "service": "Facial Treatment",
+      "image": "https://i.pinimg.com/236x/d6/da/ad/d6daada0b072020c5a602fcc4cffe9ce.jpg"
+    },
+    {
+      "service": "Hair Coloring",
+      "image": "https://i.pinimg.com/236x/d6/da/ad/d6daada0b072020c5a602fcc4cffe9ce.jpg"
+    },
+    {
+      "service": "Makeup",
+      "image": "https://i.pinimg.com/236x/d6/da/ad/d6daada0b072020c5a602fcc4cffe9ce.jpg"
+    }
+  ]
+}
