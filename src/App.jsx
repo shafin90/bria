@@ -11,6 +11,8 @@ import { ServicesProvider } from './Context/ServicesContext';
 import './App.css';
 import BookedAppointments from './Components/BookedAppointments';
 import ProtectedRoute from './Context/ProtectedRoute';
+import ForgetPass from './Components/ForgetPass';
+
 
 const ConditionalNavBarAndFooter = ({ children }) => {
   const location = useLocation();
@@ -36,6 +38,8 @@ const App = () => {
             <Route path="/services/appointment-booking" element={<AppointmentBookingMain />} />
             <Route path="/services/bookedappointments" element={<BookedAppointments />} />
             <Route path="/admin-login" element={<AdminLogin />} />
+            <Route path="/forget-pass" element={<ForgetPass />} />
+            
             <Route element={<ProtectedRoute />}>
               <Route path="/admin/*" element={<AdminPannel />} />
             </Route>

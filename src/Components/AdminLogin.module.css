@@ -115,27 +115,54 @@
   outline: none;
 }
 
+.forget_password {
+  width: 80%;
+  margin: 0 auto;
+  text-align: right;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  color: #91268F;
+  cursor: pointer;
+}
+
+.forget_password:hover {
+  width: 80%;
+  margin: 0 auto;
+  text-align: right;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  transition: 0.3s;
+  color: #da24d6;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 320px) {
   .loginForm {
     max-height: 350px;
   }
+
   .loginForm h2 {
     font-size: 1.5rem;
   }
+
   .inputGroup {
     padding: 0 0;
   }
+
   .inputGroup label {
     font-size: 0.75rem;
   }
+
   .inputGroup input {
     font-size: 0.875rem;
   }
+
   .adminButton {
     font-size: 0.875rem;
     width: 100%;
     margin: 0.5rem 0 0 0;
   }
+
   .error {
     font-size: 0.5rem;
   }
@@ -145,18 +172,23 @@
   .loginForm {
     max-height: 450px;
   }
+
   .loginForm h2 {
     font-size: 1.75rem;
   }
+
   .inputGroup {
     padding: 0 5%;
   }
+
   .inputGroup label {
     font-size: 0.875rem;
   }
+
   .inputGroup input {
     font-size: 1rem;
   }
+
   .adminButton {
     width: 90%;
     margin: 1rem 0 0 5%;
@@ -168,12 +200,15 @@
   .loginForm h2 {
     font-size: 2rem;
   }
+
   .inputGroup {
     padding: 0 10%;
   }
+
   .error {
     font-size: 0.875rem;
   }
+
   .adminButton {
     width: 80%;
     margin: 1rem 0 0 10%;

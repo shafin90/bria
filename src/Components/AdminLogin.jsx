@@ -59,31 +59,32 @@ const AdminLogin = () => {
         <form onSubmit={handleSubmit}>
           <div className={styles.inputGroup}>
             <label htmlFor="email">Email</label>
-            <input 
-              type="text" 
-              id="email" 
-              name="email" 
-              placeholder="Enter Email Address" 
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Enter Email Address"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              required 
+              required
             />
             {errors.email && <span className={styles.error}>{errors.email}</span>}
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="password">Password</label>
-            <input 
-              type="password" 
-              id="password" 
-              name="password" 
-              placeholder="Enter Password" 
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter Password"
               value={password}
               autoComplete="current-password"
               onChange={(e) => setPassword(e.target.value)}
-              required 
+              required
             />
             {errors.password && <span className={styles.error}>{errors.password}</span>}
           </div>
+          <p className={styles.forget_password}>Forget Password</p>
           {errors.login && <span className={styles.error}>{errors.login}</span>}
           <button className={styles.adminButton} type="submit">Login</button>
         </form>
