@@ -1,7 +1,7 @@
 .whatsAppPromoHomeWrapper {
   width: 100%;
   height: fit-content;
-  padding: 2% 0;
+  padding: 2% 0%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,8 +10,8 @@
 .whatsAppPromoHome {
   background-color: #008000;
   width: 85%;
-  padding: 3% 5%;
-  height: 35vh;
+  padding: 4% 4% !important;
+  height: 35vh !important;
   border-radius: 40px;
   position: relative;
 }
