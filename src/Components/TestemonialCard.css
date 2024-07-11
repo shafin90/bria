@@ -1,10 +1,10 @@
 .testemonialCard {
   background-color: #91268F;
   color: #fff;
-  padding: 20px;
+  padding: 2.6vw 2vw !important;
   border-radius: 20px;
   width: 100%;
-  height: 32vh;
+  height: 42vh !important;
   position: relative;
   transition: transform 0.5s ease-in-out;
 }
@@ -37,13 +37,14 @@
 }
 
 .testemonialQuote img {
-  width: 70px;
-  height: 60px;
+  width: 50px !important;
+  height: 40px !important;
 }
 
 @media only screen and (min-width: 320px) {
   .testemonialCard {
-    height: 25vh;
+    height: 25vh !important;
+    padding: 6vw 6vw !important;
   }
 
   .testemonialHeader {
@@ -62,7 +63,8 @@
 
 @media only screen and (min-width: 425px) {
   .testemonialCard {
-    height: 25vh;
+    height: 25vh !important;
+    padding: 5.6vw 5vw !important;
   }
 
   .testemonialHeader {
@@ -81,7 +83,7 @@
 
 @media only screen and (min-width: 640px) {
   .testemonialCard {
-    height: 30vh;
+    height: 30vh !important;
   }
 
   .testemonialHeader {
@@ -98,9 +100,10 @@
   }
 }
 
-@media only screen and (min-screen: 768px) {
+@media only screen and (min-width: 768px) {
   .testemonialCard {
-    height: 30vh;
+    height: 30vh !important;
+    padding: 3.2vw 3.2vw !important;
   }
 
   .testemonialHeader {
@@ -119,7 +122,8 @@
 
 @media only screen and (min-width: 1024px) {
   .testemonialCard {
-    height: 30vh;
+    height: 45vh !important;
+    padding: 2.6vw 2vw !important;
   }
 
   .testemonialHeader {
@@ -138,7 +142,8 @@
 
 @media only screen and (min-width: 1440px) {
   .testemonialCard {
-    height: 35vh;
+    height: 35vh !important;
+    padding: 2.6vw 2vw !important;
   }
 
   .testemonialHeader {
