@@ -3,6 +3,7 @@ import styles from './PromoConsentPopup.module.css';
 import heart from '../../assets/heart.png';
 
 const PromoConsentPopup = ({ onConsent, onSkip }) => {
+  console.log("This is input",onConsent, onSkip)
   return (
     // className={styles.overlay}
    <div >

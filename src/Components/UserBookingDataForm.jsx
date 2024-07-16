@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './UserBookingDataForm.module.css';
-import PromoConsentPopup from './PromoConsentPopup';
 import { useServices } from '../Context/ServicesContext';
 import close from '../../assets/hamburgerClose.png';
 import { baseURL } from '../../baseUrl';
+import PromoConsentPopup from './PromoConsentPopup';
 
-const UserBookingDataForm = ({ setCurrentStep }) => {
+const UserBookingDataForm = ({ setNumber, setCurrentStep }) => {
   const [name, setName] = useState('');
   const [mobileNumber, setMobileNumber] = useState('');
   const [isFormValid, setIsFormValid] = useState(false);
@@ -20,7 +20,10 @@ const UserBookingDataForm = ({ setCurrentStep }) => {
   }, [name, mobileNumber]);
 
   const handleNameChange = (e) => setName(e.target.value);
-  const handleMobileNumberChange = (e) => setMobileNumber(`+91${e.target.value.replace(/\D/g, '')}`);
+  const handleMobileNumberChange = (e) => {
+    setMobileNumber(`+91${e.target.value.replace(/\D/g, '')}`)
+    setNumber(`+91${e.target.value}`)
+  };
 
   const handleSubmit = async () => {
     if (isFormValid) {
@@ -28,7 +31,7 @@ const UserBookingDataForm = ({ setCurrentStep }) => {
       setCurrentStep(prev => prev + 1)
       setSelectedMobileNumber(mobileNumber);
 
-      console.log(selectedServices);
+
 
       const bookingData = {
         name,
@@ -42,7 +45,7 @@ const UserBookingDataForm = ({ setCurrentStep }) => {
         time: selectedTime,
       };
 
-      console.log(bookingData);
+
 
       try {
         const requestOptions = {
@@ -78,6 +81,7 @@ const UserBookingDataForm = ({ setCurrentStep }) => {
     navigate('/services/bookedappointments', { state: { phoneNumber: mobileNumber } });
   };
 
+  console.log(showConsentPopup)
   return (
     <>
       {/* className={styles.overlay} */}
@@ -121,12 +125,11 @@ const UserBookingDataForm = ({ setCurrentStep }) => {
           </button>
         </div>
       </div>
-      {showConsentPopup && (
-        <PromoConsentPopup
-          onConsent={handleConsent}
-          onSkip={onClose}
-        />
-      )}
+      {showConsentPopup && < PromoConsentPopup
+        onConsent={handleConsent}
+        onSkip={onClose}
+      />
+      }
     </>
   );
 };
