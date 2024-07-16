@@ -6,7 +6,7 @@ import { useServices } from '../Context/ServicesContext';
 import close from '../../assets/hamburgerClose.png';
 import { baseURL } from '../../baseUrl';
 
-const UserBookingDataForm = () => {
+const UserBookingDataForm = ({ setCurrentStep }) => {
   const [name, setName] = useState('');
   const [mobileNumber, setMobileNumber] = useState('');
   const [isFormValid, setIsFormValid] = useState(false);
@@ -25,6 +25,7 @@ const UserBookingDataForm = () => {
   const handleSubmit = async () => {
     if (isFormValid) {
       setSelectedName(name);
+      setCurrentStep(prev => prev + 1)
       setSelectedMobileNumber(mobileNumber);
 
       console.log(selectedServices);
@@ -79,7 +80,8 @@ const UserBookingDataForm = () => {
 
   return (
     <>
-      <div className={styles.overlay}>
+      {/* className={styles.overlay} */}
+      <div >
         <div className={styles.popup}>
           <button className={styles.closeButton} onClick={onClose}>
             <img src={close} alt="Close" />

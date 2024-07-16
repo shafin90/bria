@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './AddNewService.module.css';
 import NewServiceAddedPopUp from './NewServiceAddedPopUp';
 import backButton from '../../assets/backIcon.png';
-import { baseURL } from '../../baseUrl'; 
+import { baseURL } from '../../baseUrl';
 
 const AddNewService = ({ onBack, onContinue, editData }) => {
   const serviceTypes = [
@@ -15,7 +15,17 @@ const AddNewService = ({ onBack, onContinue, editData }) => {
     "Make up",
     "Bride",
     "Bride Groom Package",
-    "Deluxe for groom"
+    "Deluxe for groom",
+    "Hair Colour",
+    "Treatment",
+    "Threading",
+    "Reflexology",
+    "Facial",
+    "Bleach or de tan",
+    "Manicure and Pedicure",
+    "Nail extension and gel polish",
+    "Waxing",
+    "Microbleeding"
   ];
 
   const [serviceName, setServiceName] = useState('');
@@ -31,7 +41,7 @@ const AddNewService = ({ onBack, onContinue, editData }) => {
   const [popupMessage, setPopupMessage] = useState('');
 
   useEffect(() => {
-    if (editData ) {
+    if (editData) {
       const data = editData; // Assuming only one object in editData array
 
       setServiceName(data.serviceName || '');
@@ -61,7 +71,7 @@ const AddNewService = ({ onBack, onContinue, editData }) => {
       formData.append('price', parseFloat(servicePrice));
       formData.append('category', category);
       formData.append('serviceType', serviceType);
-      
+
       if (image) {
         formData.append('img', image);
       } else {

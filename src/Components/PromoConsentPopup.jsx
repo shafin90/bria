@@ -4,7 +4,8 @@ import heart from '../../assets/heart.png';
 
 const PromoConsentPopup = ({ onConsent, onSkip }) => {
   return (
-    <div className={styles.overlay}>
+    // className={styles.overlay}
+   <div >
       <div className={styles.popup}>
         <h1 className={styles.header}>We Want to keep in touch</h1>
         <div className={styles.heartBorder}>

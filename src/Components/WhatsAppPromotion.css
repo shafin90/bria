@@ -10,9 +10,9 @@
 .whatsAppPromoHome {
   background-color: #008000;
   width: 85%;
-  padding: 4% 4% !important;
+  padding: 3% 3% !important;
   height: 35vh !important;
-  border-radius: 40px;
+  border-radius: 1vw;
   position: relative;
 }
 
@@ -149,7 +149,7 @@
 
 @media only screen and (min-width: 1024px) {
   .whatsAppPromoHome {
-    padding: 4% 4%;
+    padding: 3% 3%;
     height: 25vh;
   }
 
@@ -173,7 +173,7 @@
 
 @media only screen and (min-width: 1440px) {
   .whatsAppPromoHome {
-    padding: 4% 4%;
+    padding: 3% 3%;
     height: 30vh;
   }
 
@@ -201,7 +201,7 @@
 
 @media only screen and (min-width: 1920px) {
   .whatsAppPromoHome {
-    padding: 4% 4%;
+    padding: 3% 3%;
     height: 30vh;
   }
 
