@@ -57,13 +57,6 @@ const AppointmentBookingMain = () => {
           {renderStep()}
           {(window.innerWidth >= 320 && window.innerWidth < 1024) && (
 
-            // <YourOrder
-            //   setCurrentStep={setCurrentStep}
-            //   currentStep={currentStep}
-            //   selectedDate={selectedDate}
-            //   selectedTime={selectedTime}
-            // />
-
 
             currentStep === 3 ?
               <UserBookingDataForm setNumber={setNumber} setCurrentStep={setCurrentStep} /> : (
