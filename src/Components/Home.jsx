@@ -1,25 +1,38 @@
-import React from 'react';
-import HeaderHome from './HeaderHome';
-import OurServicesHome from './OurServicesHome';
-import AboutUsHome from './AboutUsHome';
-import WhatsAppPromotion from './WhatsAppPromotion';
-import TestemonialsHome from './TestemonialsHome';
-import MeetOurTeamHome from './MeetOurTeamHome';
+import React, { lazy, Suspense } from 'react';
 import './Home.css';
+
+const HeaderHome = lazy(() => import('./HeaderHome'));
+const OurServicesHome = lazy(() => import('./OurServicesHome'));
+const AboutUsHome = lazy(() => import('./AboutUsHome'));
+const WhatsAppPromotion = lazy(() => import('./WhatsAppPromotion'));
+const TestemonialsHome = lazy(() => import('./TestemonialsHome'));
+const MeetOurTeamHome = lazy(() => import('./MeetOurTeamHome'));
 
 const Home = () => {
   return (
     <>
-      <HeaderHome />
-      <OurServicesHome />
+      <Suspense fallback={<div>Loading...</div>}>
+        <HeaderHome />
+      </Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
+        <OurServicesHome />
+      </Suspense>
       <div id="aboutSection">
-        <AboutUsHome />
+        <Suspense fallback={<div>Loading...</div>}>
+          <AboutUsHome />
+        </Suspense>
       </div>
       <div id="contactSection">
-        <WhatsAppPromotion />
+        <Suspense fallback={<div>Loading...</div>}>
+          <WhatsAppPromotion />
+        </Suspense>
       </div>
-      <TestemonialsHome />
-      <MeetOurTeamHome />
+      <Suspense fallback={<div>Loading...</div>}>
+        <TestemonialsHome />
+      </Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
+        <MeetOurTeamHome />
+      </Suspense>
     </>
   );
 };
