@@ -54,7 +54,7 @@ const UserBookingDataForm = ({ setNumber, setCurrentStep }) => {
           servicePrice: service.price,
         })),
         date: formatDate(selectedDate),
-        time: selectedTime,
+        time: selectedTime[0] == 0 ? selectedDate.substring(1) : selectedTime,
       };
 
       console.log(bookingData)
