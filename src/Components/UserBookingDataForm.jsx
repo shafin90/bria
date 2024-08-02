@@ -14,6 +14,19 @@ const UserBookingDataForm = ({ setNumber, setCurrentStep }) => {
   const { selectedServices, selectedDate, selectedTime, setSelectedName, setSelectedMobileNumber } = useServices();
   const navigate = useNavigate();
 
+
+
+  function formatDate(dateString) {
+    const date = new Date(dateString);
+
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are zero-based
+    const year = date.getFullYear();
+
+    return `${day}-${month}-${year}`;
+  }
+
+
   useEffect(() => {
     const isValid = name.trim() !== '' && /^\+91\d{10}$/.test(mobileNumber);
     setIsFormValid(isValid);
@@ -32,7 +45,6 @@ const UserBookingDataForm = ({ setNumber, setCurrentStep }) => {
       setSelectedMobileNumber(mobileNumber);
 
 
-
       const bookingData = {
         name,
         phoneNumber: mobileNumber,
@@ -41,10 +53,11 @@ const UserBookingDataForm = ({ setNumber, setCurrentStep }) => {
           serviceImg: service.img,
           servicePrice: service.price,
         })),
-        date: selectedDate,
+        date: formatDate(selectedDate),
         time: selectedTime,
       };
 
+      console.log(bookingData)
 
 
       try {
