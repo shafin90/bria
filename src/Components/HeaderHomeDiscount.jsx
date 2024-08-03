@@ -13,7 +13,7 @@ const HeaderHomeDiscount = () => {
           <img src={discount2} alt='Haircut Discount' className={styles.discountImage2} />
         </div>
         <p className={styles.discountText}>
-          Get 25% off on your first Hair cut.
+          Get 10% off on your first Hair cut.
         </p>
       </div>
 
@@ -24,7 +24,7 @@ const HeaderHomeDiscount = () => {
           <img src={discount1} alt='Haircut Discount' className={styles.discountImage1} />
         </div>
         <p className={styles.discountText}>
-          Get 52% off on your first
+          Get 10% off on your first
           Shampoo treatment.
         </p>
       </div>
