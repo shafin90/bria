@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import styles from './ServiceCard.module.css';
 import image from "../../assets/arrowForwardServices.png"
 
+
+
 const ServiceCard = ({ imageSrc, altText, serviceName }) => {
   const navigate = useNavigate();
 
@@ -29,10 +31,13 @@ const ServiceCard = ({ imageSrc, altText, serviceName }) => {
   };
 
   return (
-    <div className={styles.serviceCard}>
-      <img src={imageSrc} alt={altText} />
-      <button className={styles.button} onClick={handleNavigation}>
-        <img src={image} alt="" />
+    <div className={styles.serviceCard} onClick={handleNavigation} style={{cursor:"pointer"}}>
+      <picture>
+        {/* <source srcSet={webpImage} type="image/webp" /> */}
+        <img src={imageSrc} alt={altText} loading="lazy" />
+      </picture>
+      <button className={styles.button} >
+        <img src={image} alt="Navigate" />
       </button>
       <div className={styles.serviceInfo}>
         <p>{serviceName}</p>
