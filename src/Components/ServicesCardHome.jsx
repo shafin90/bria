@@ -29,12 +29,12 @@ const ServicesCardHome = ({ image, title, serviceName }) => {
   };
 
   return (
-    <div className={styles.card}>
+    <div className={styles.card} onClick={handleNavigation}>
       <img src={image} alt={title} className={styles.image} />
       <div className={styles.info}>
         <span className={styles.title}>{title}</span>
       </div>
-      <button className={styles.button} onClick={handleNavigation}>
+      <button className={styles.button} >
         <img src={arrowImage} alt="" />
       </button>
     </div>
