@@ -29,7 +29,7 @@ const ServicesCardHome = ({ image, title, serviceName }) => {
   };
 
   return (
-    <div className={styles.card} onClick={handleNavigation}>
+    <div className={styles.card} onClick={handleNavigation} style={{cursor:"pointer"}}>
       <img src={image} alt={title} className={styles.image} />
       <div className={styles.info}>
         <span className={styles.title}>{title}</span>
