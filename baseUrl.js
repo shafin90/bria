@@ -2,4 +2,6 @@
 
 // export const baseURL = "http://localhost:8000"
 
-export const baseURL = "https://bria-server.vercel.app"
+export const baseURL = 'https://bria-server-v8r6.vercel.app' 
+
+// "https://bria-server.vercel.app"
