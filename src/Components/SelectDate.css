@@ -324,7 +324,7 @@
   }
 
   .customCalendar {
-    height: 90%;
+    height: 100%;
   }
   
   .customCalendar .react-datepicker__day:hover {

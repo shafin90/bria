@@ -2,4 +2,4 @@
 
 // export const baseURL = "http://localhost:8000"
 
-export const baseURL = "https://bria-unisex-salon-server.onrender.com"
+export const baseURL = "https://bria-server.vercel.app"
